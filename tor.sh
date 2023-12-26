@@ -17,7 +17,7 @@ wget -qO- https://deb.torproject.org/torproject.org/A3C4F0F979CAA22CDBA8F512EE8C
 
 apt update
 
-apt install tor deb.torproject.org-keyring
+apt install tor deb.torproject.org-keyring -y
 
 echo 'Nickname  luciferRelay
 ContactInfo lambo@i2pmail.org 
