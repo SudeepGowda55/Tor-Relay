@@ -1,10 +1,8 @@
-#!/bin/bash
+sudo su
 
 sudo apt update
 
 sudo apt install unattended-upgrades apt-listchanges -y
-
-sudo su
 
 #Check if these cmds are executed or not. If not, then execute these cmds.
 
